@@ -1,0 +1,36 @@
+strict digraph G {
+	graph [fontsize=28]
+	layout=dot
+	concentrate=false
+	size = "10.66,4.33!"
+	ratio = "fill"
+	node [shape=circle, width=1.8]
+	nodesep=1.5
+	ranksep = 1
+	1 [fontsize=36]
+	2 [fontsize=36]
+	3 [fontsize=36]
+	4 [fontsize=36]
+	5 [fontsize=36]
+	6 [fontsize=36]
+	7 [fontsize=36]
+	8 [fontsize=36]
+	9 [fontsize=36]
+	10 [fontsize=36]
+	1 -> 2 [label=17, fontsize = 36]
+	1 -> 7 [label=12, fontsize = 36]
+	2 -> 6 [label=16, fontsize = 36]
+	2 -> 3 [label=14, fontsize = 36]
+	2 -> 5 [label=2, fontsize = 36]
+	2 -> 1 [label=14, fontsize = 36]
+	3 -> 2 [label=14, fontsize = 36]
+	4 -> 10 [label=16, fontsize = 36]
+	4 -> 8 [label=19, fontsize = 36]
+	5 -> 2 [label=15, fontsize = 36]
+	6 -> 2 [label=18, fontsize = 36]
+	7 -> 1 [label=16, fontsize = 36]
+	8 -> 4 [label=7, fontsize = 36]
+	9 -> 10 [label=15, fontsize = 36]
+	10 -> 9 [label=14, fontsize = 36]
+	10 -> 4 [label=16, fontsize = 36]
+}
